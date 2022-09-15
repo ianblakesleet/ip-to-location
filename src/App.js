@@ -1,35 +1,14 @@
 import './App.css'
+import MapComponent from './components/MapComponent'
+import SearchBar from './components/SearchBar'
 
 function App() {
 	return (
 		<div className="App">
-			<div className="banner">
-				<input />
-			</div>
+			<SearchBar />
+			<MapComponent />
 		</div>
 	)
 }
 
 export default App
-{
-	/* <div className="App">
-			<div className="banner">
-				<div className="zIndex">
-					<TextField
-						id="textField"
-						label="Search IP"
-						type="search"
-						variant="filled"
-						helperText="Input valid IP address"
-						// InputProps={{
-						// 	endAdornment: (
-						// 		<InputAdornment position="end">
-						// 			<SearchIcon />
-						// 		</InputAdornment>
-						// 	),
-						// }}
-					/>
-				</div>
-			</div>
-		</div> */
-}
